@@ -11,22 +11,13 @@ import NavBar from '../components/NavBar';
 const AppRouter = () => {
   return (
     <Router>
-
      <NavBar/>
-    <Routes> 
-
-
-         <Route path="/" element={<Homepage/>}/>
-         <Route path="/about" element={<AboutPage/>}/>
-         <Route path="/products" element={<ProductsPage/>}/>
-
-         <Route path="*" element={<NotFound/>}/>
-
-
-    </Routes>
-    
-    
-    
+       <Routes> 
+          <Route path="/" element={<Homepage/>}/>
+          <Route path="/about" element={<AboutPage/>}/>
+          <Route path="/products" element={<ProductsPage/>}/>
+          <Route path="*" element={<NotFound/>}/>
+       </Routes> 
     </Router>
   )
 }

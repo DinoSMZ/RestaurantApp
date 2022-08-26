@@ -6,9 +6,7 @@ const AboutPage = () => {
       <>
 
         <header>
-               <h1>
-                 About Page
-              </h1>
+               <h1>     About Page  </h1>
            </header>
         <main>
            <article>
