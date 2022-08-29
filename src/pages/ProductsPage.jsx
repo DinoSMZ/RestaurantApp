@@ -4,7 +4,7 @@ const ProductsPage = () => {
 
   <header>
                  <h1>
-                    pagina de productos
+                    Pagina de productos
                 </h1>
              </header>
           <main>
