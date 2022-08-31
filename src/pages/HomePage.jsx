@@ -6,7 +6,7 @@ return (
                 Home Page
             </h1>
          </header>
-      <main>
+      <main >
          <article>
              <p>
                 Bienvenido

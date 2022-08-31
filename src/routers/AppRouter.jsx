@@ -6,7 +6,7 @@ import AboutPage from '../pages/AboutPage';
 import NotFound from '../pages/NotFound';
 import ProductsPage from '../pages/ProductsPage';
 import NavBar from '../components/NavBar';
-import PlatillosPage from '../pages/PlatillosPage';
+import ReservasPage from '../pages/ReservasPage';
 
 const AppRouter = () => {
   return (
@@ -16,7 +16,7 @@ const AppRouter = () => {
           <Route path="/" element={<Homepage/>}/>
           <Route path="/about" element={<AboutPage/>}/>
           <Route path="/products" element={<ProductsPage/>}/>
-          <Route path="/Platillos" element={<PlatillosPage/>}/>
+          <Route path="/Platillos" element={<ReservasPage/>}/>
           <Route path="*" element={<NotFound/>}/>
        </Routes> 
     </Router>
