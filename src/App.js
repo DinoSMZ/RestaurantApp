@@ -8,7 +8,8 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
 
 const App = () => {
-    return ( < >
+    return ( <
+        >
 
         <
         AppRouter / >
