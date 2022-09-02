@@ -8,13 +8,14 @@ const ProductsPage = () => {
         <>
 
   <header>
-                 <h1>
+                 <h1 className="d-flex justify-content-center">
                     Menú
                 </h1>
              </header>
           <main>
-             <article>
-             <div className="row container">
+         
+             <article className="d-flex justify-content-center">
+             <div className="row container ">
              <div className="col mb-6">
                
              <div className="card "  style={{width: '25rem'}}>
