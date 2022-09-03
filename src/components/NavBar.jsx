@@ -19,13 +19,13 @@ const NavBar = () => {
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav">
           <li className="nav-item">
-            <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} aria-current="page" to="/about">AboutPage</NavLink>
+            <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} aria-current="page" to="/about">Acerca de Nosotros</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/products">productos</NavLink>
+            <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/products">Menú</NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/Reservas">Reservas</NavLink>
+            <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/Reservas">Reservaciones</NavLink>
           </li>
         </ul>
       </div>
