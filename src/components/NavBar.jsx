@@ -7,13 +7,12 @@ import logo from '../assets/Mati.png'
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-light">
+    <nav className="navbar navbar-expand-lg bg-light Nav ">
     <div className="container-fluid">
     <div>
      <img src={logo} className="logo" alt="/" />
-
     </div>
-      <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/">HomePage</NavLink>
+      <NavLink  className= {({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/"  >Principal</NavLink>
       <button className="navbar-toggler" type="button " data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
       </button>

@@ -7,6 +7,7 @@ import NotFound from '../pages/NotFound';
 import ProductsPage from '../pages/ProductsPage';
 import NavBar from '../components/NavBar';
 import ReservasPage from '../pages/ReservasPage';
+import Footer from '../components/Footer';
 
 const AppRouter = () => {
   return (
@@ -19,6 +20,7 @@ const AppRouter = () => {
           <Route path="/Reservas" element={<ReservasPage/>}/>
           <Route path="*" element={<NotFound/>}/>
        </Routes> 
+       <Footer/>
     </Router>
   )
 }
