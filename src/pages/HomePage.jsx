@@ -10,7 +10,6 @@ import { NavLink } from 'react-router-dom';
 const Homepage = () => {
 return (
     <>
-    <body>
       <header>
              <h1 className="d-flex justify-content-center" >
              <img src={logo2} className="logo" alt="/" />
@@ -36,7 +35,6 @@ return (
           </article>
 
        </main>  
-       </body>
     </>
 ) 
 

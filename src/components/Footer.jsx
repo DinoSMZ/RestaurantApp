@@ -3,21 +3,16 @@ import { NavLink } from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <div className="container">
-  <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-    <p className="col-md-4 mb-0 link-dark">© 2022 Matilde's</p>
-    <a href="/" className="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
-      <svg className="bi me-2" width={40} height={32}><use xlinkHref="#bootstrap" /></svg>dinoaldair@hotmail.com
-    </a>
-    <ul className="nav col-md-4 justify-content-end">
-    <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/" >Principal</NavLink>
-    <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} aria-current="page" to="/about">Acerca de nosotros</NavLink>
-    <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/products">Menú</NavLink>
-    <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/Reservas">Reservaciones</NavLink>
-      
-    </ul>
-  </footer>
-</div>
+    <footer className="py-3 my-4">
+  <ul className="nav justify-content-center border-bottom pb-3 mb-3">
+    <li className="nav-item"><NavLink to="/" className="nav-link px-2 text-muted">Principal</NavLink></li>
+    <li className="nav-item"><NavLink to="/about" className="nav-link px-2 text-muted">Nosotros</NavLink></li>
+    <li className="nav-item"><NavLink to="/products" className="nav-link px-2 text-muted">Menú</NavLink></li>
+    <li className="nav-item"><NavLink to="/Reservas" className="nav-link px-2 text-muted">Reservaciones</NavLink></li>
+  </ul>
+  <p className="text-center text-muted">© 2022 Company, Inc</p>
+</footer>
+
 
   )
 }

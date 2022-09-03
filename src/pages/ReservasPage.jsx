@@ -67,8 +67,8 @@ const crearReserva = async () => {
     <section>
 <article>
 <div className="container">
-  <button type="button" className="btn btn-secondary btn-lg" onClick={obtenerReservas}>Obtener reservas </button>
-  <button type="button" className="btn btn-lg btn-primary" onClick={crearReserva}>Crear reservas</button>
+  <button type="button" className="btn btn-secondary btn-lg" onClick={obtenerReservas}>Mostrar Reservaciones</button>
+  <button type="button" className="btn btn-lg btn-primary" onClick={crearReserva}>Crear Reservacion</button>
 </div>
 </article>
     </section>
