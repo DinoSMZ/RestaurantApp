@@ -10,7 +10,7 @@ const NavBar = () => {
     <nav className="navbar navbar-expand-lg bg-light">
     <div className="container-fluid">
     <div>
-     <img src={logo} alt="/" />
+     <img src={logo} className="logo" alt="/" />
 
     </div>
       <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/">HomePage</NavLink>
