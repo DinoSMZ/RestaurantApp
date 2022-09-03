@@ -2,6 +2,10 @@ import React, {useState} from 'react';
 import {db} from "../firebase/firebase"
 import { collection, getDocs, addDoc,} from "firebase/firestore"
 
+let date = new Date();
+let Hoy = date.getFullYear() + '-' + String(date.getMonth() + 1).padStart(2, '0')  + '-' + String(date.getDate()).padStart(2, '0') ;
+console.log(Hoy);
+
 const formularioInicial = { 
   Nombre: "",
 Hora: "",
@@ -54,7 +58,7 @@ const crearReserva = async () => {
   </div>
   <div className="col-md-3">
     <label htmlFor="Fecha" className="form-label">Fecha</label>
-    <input type="date" className="form-control" id="Fecha" value = {form.Fecha} onChange={(e) => setForm({...form, Fecha:e.target.value})} />
+    <input type="date" min={Hoy} className="form-control" id="Start" value = {form.Fecha} onChange={(e) => setForm({...form, Fecha:e.target.value})} />
   </div>
   <div className="col-md-3">
     <label htmlFor="Personas" className="form-label">No. de personas </label>
