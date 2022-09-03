@@ -18,7 +18,7 @@ const ProductsPage = () => {
              <div className="row container ">
              <div className="col mb-6">
                
-             <div className="card "  style={{width: '25rem'}}>
+             <div className="card "  style={{width: '20rem'}}>
              
   <img src="https://cocina-casera.com/wp-content/uploads/2017/04/lasana-carne.jpg" className="card-img-top" alt="Lasagna" />
   <div className="card-body">
@@ -29,7 +29,7 @@ const ProductsPage = () => {
 </div>
 </div>
 <div className="col mb-6">
-<div className="card" style={{width: '25rem'}}>
+<div className="card" style={{width: '20rem'}}>
   <img src="https://cocina-casera.com/wp-content/uploads/2017/04/carpaccio.jpg" className="card-img-top" alt="..." />
   <div className="card-body">
     <h5 className="card-title">CARPAGGIO</h5>
@@ -39,7 +39,7 @@ const ProductsPage = () => {
 </div>
 </div>
 <div className="col mb-6">
-<div className="card" style={{width: '25rem'}}>
+<div className="card" style={{width: '20rem'}}>
   <img src="https://cocina-casera.com/wp-content/uploads/2017/04/sopa_minestrone.jpg" className="card-img-top" alt="..." />
   <div className="card-body">
     <h5 className="card-title">Sopa Minestrone</h5>
@@ -49,7 +49,7 @@ const ProductsPage = () => {
   </div>
 </div>
 <div className="col mb-6">
-<div className="card" style={{width: '25rem'}}>
+<div className="card" style={{width: '20rem'}}>
   <img src="https://cocina-casera.com/wp-content/uploads/2017/04/pizza.jpg" className="card-img-top" alt="..." />
   <div className="card-body">
     <h5 className="card-title">Pizza</h5>
@@ -60,7 +60,7 @@ const ProductsPage = () => {
 </div>
 
 <div className="col mb-6">
-<div className="card" style={{width: '25rem'}}>
+<div className="card" style={{width: '20rem'}}>
   <img src="https://cocina-casera.com/wp-content/uploads/2017/04/ensalada_capresse.jpg" className="card-img-top" alt="..." />
   <div className="card-body">
     <h5 className="card-title">Ensalada Capresse</h5>
@@ -71,7 +71,7 @@ const ProductsPage = () => {
   </div>
 
   <div className="col mb-6">
-<div className="card" style={{width: '25rem' }}>
+<div className="card" style={{width: '20rem' }}>
   <img src="https://cocina-casera.com/wp-content/uploads/2017/04/espaguetis_carbonara.jpg" className="card-img-top" alt="..." />
   <div className="card-body">
     <h5 className="card-title">Espaguetis a la carbonara</h5>

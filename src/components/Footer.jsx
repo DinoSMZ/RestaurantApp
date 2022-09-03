@@ -10,10 +10,10 @@ const Footer = () => {
       <svg className="bi me-2" width={40} height={32}><use xlinkHref="#bootstrap" /></svg>dinoaldair@hotmail.com
     </a>
     <ul className="nav col-md-4 justify-content-end">
-    <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/" >HomePage</NavLink>
-    <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} aria-current="page" to="/about">AboutPage</NavLink>
-    <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/products">productos</NavLink>
-    <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/Reservas">Reservas</NavLink>
+    <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/" >Principal</NavLink>
+    <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} aria-current="page" to="/about">Acerca de nosotros</NavLink>
+    <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/products">Menú</NavLink>
+    <NavLink className={({ isActive }) => isActive ? "nav-link active" : "nav-link"} to="/Reservas">Reservaciones</NavLink>
       
     </ul>
   </footer>
