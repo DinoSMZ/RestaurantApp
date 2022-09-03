@@ -25,21 +25,21 @@ const AboutPage = () => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src="https://s03.s3c.es/imag/_v0/770x420/a/8/9/roma-italia-desastre.jpg" className="d-block rounded mx-auto border rounded-5 shadow-lg mb-4" width="80% " height="50% " alt="..." />
+            <img src="https://s03.s3c.es/imag/_v0/770x420/a/8/9/roma-italia-desastre.jpg" className="d-block rounded mx-auto border rounded-5 shadow-lg mb-4" width="100% " height="50% " alt="..." />
             <div className="carousel-caption d-none d-md-block">
               <h1 className="text-primary"> <b>Orígenes</b></h1>
               <p className="text-light fs-3"><b>Desde Italia, nuestro <i style={{color: 'black'}}>fundador</i> trajo consigo las mejores recetas tradicionales</b></p>
             </div>
           </div>
           <div className="carousel-item">
-            <img src="https://www.finedininglovers.com/es/sites/g/files/xknfdk1706/files/styles/article_1200_800_fallback/public/2021-09/france_winner_bocuse_d_or_2021_france.jpg?itok=KzcF1GYe" className="d-block rounded mx-auto border rounded-5 shadow-lg mb-4" width="80% " height="50%" alt="..." />
+            <img src="https://www.finedininglovers.com/es/sites/g/files/xknfdk1706/files/styles/article_1200_800_fallback/public/2021-09/france_winner_bocuse_d_or_2021_france.jpg?itok=KzcF1GYe" className="d-block rounded mx-auto border rounded-5 shadow-lg mb-4" width="85% " height="50%" alt="..." />
             <div className="carousel-caption d-none d-md-block">
               <h1 className="text-info"><b>Premios</b></h1>
               <p className=" text-dark fs-3"><b>Somos acreedoers de  <i style={{color: 'red'}}>2 </i> <i style={{color: 'yellow'}}>Estrellas michelín</i> </b></p>
             </div>
           </div>
           <div className="carousel-item">
-            <img src="https://cdn.create.vista.com/api/media/medium/193630250/stock-photo-multiracial-chefs-team-smiling-modern?token=" className="d-block rounded mx-auto border rounded-5 shadow-lg mb-4" width="80% " height="50%" alt="..." />
+            <img src="https://cdn.create.vista.com/api/media/medium/193630250/stock-photo-multiracial-chefs-team-smiling-modern?token=" className="d-block rounded mx-auto border rounded-5 shadow-lg mb-4" width="85% " height="50%" alt="..." />
             <div className="carousel-caption d-none d-md-block ">
               <h1 className="text-primary "><b>Equipo</b></h1>
               <p className=" text-light fs-3"><b>Nos conformamos de gente local, experta en cocina <i style={{color: 'yellow'}}>Italiana</i></b></p>
