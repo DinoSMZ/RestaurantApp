@@ -10,7 +10,7 @@ const Footer = () => {
     <li className="nav-item"><NavLink to="/products" className="nav-link px-2 text-muted">Menú</NavLink></li>
     <li className="nav-item"><NavLink to="/Reservas" className="nav-link px-2 text-muted">Reservaciones</NavLink></li>
   </ul>
-  <p className="text-center text-muted">© 2022 Matilde's</p>
+  <p className="text-center text-muted">DASM dinoaldair@hotmail.com</p>
 </footer>
 
 
