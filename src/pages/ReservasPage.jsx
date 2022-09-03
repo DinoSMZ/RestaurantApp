@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
 import {db} from "../firebase/firebase"
-import { collection, getDocs, addDoc, getDoc} from "firebase/firestore"
-import { async } from '@firebase/util';
+import { collection, getDocs, addDoc,} from "firebase/firestore"
 
 const formularioInicial = { 
   Nombre: "",
